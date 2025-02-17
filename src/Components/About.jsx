@@ -31,8 +31,8 @@ class About extends React.Component {
             cryptocurrency started by Evan Duffield.
           </p>
           <p>
-            This webpage distributes the Name-Wallet implementation that has
-            been build over the past several months. (OCT2024 - FEB2025)
+            This webpage distributes the <b>Name-Wallet</b> that has been build
+            over the past several months. (OCT2024 - FEB2025)
           </p>
           <p>
             You will also find here, links to the Approach #2 Merchant Frontends
