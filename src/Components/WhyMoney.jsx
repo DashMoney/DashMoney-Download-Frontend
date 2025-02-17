@@ -335,7 +335,7 @@ class WhyMoney extends React.Component {
               man’s pride.
             </p>
 
-            <p style={{ marginTop: "1rem" }}>
+            <p style={{ marginTop: "4rem" }}>
               And with Dash Evolution, we are close now.
             </p>
 

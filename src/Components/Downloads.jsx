@@ -26,7 +26,8 @@ class Downloads extends React.Component {
           }}
         >
           <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            <b>Downloads (testnet only)</b>
+            <b>Downloads (Under Construction)</b>
+            {/* (testnet only) */}
           </h3>
         </div>
         <h2 style={{ textAlign: "center", marginTop: "2rem" }}>

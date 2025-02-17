@@ -39,7 +39,8 @@ class TopNav extends React.Component {
           bg={this.props.mode}
           variant={this.props.mode}
           //expand={false}
-          collapseOnSelect
+          collapseOnSelect={"true"}
+          //https://stackoverflow.com/questions/54859515/react-bootstrap-navbar-collapse-not-working
           expand="lg"
           //className="bg-body-tertiary"
         >
@@ -90,28 +91,35 @@ class TopNav extends React.Component {
                 />
               )}
             </div>
+            {/* https://stackoverflow.com/questions/54859515/react-bootstrap-navbar-collapse-not-working */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto d-flex justify-content-evenly">
                 <Nav.Link
                   style={{ marginRight: "2rem" }}
                   onClick={() => this.props.scrollToAbout()}
+                  eventKey="1"
                 >
                   <b className="lightMode">About</b>
                 </Nav.Link>
                 <Nav.Link
                   style={{ marginRight: "2rem" }}
                   onClick={() => this.props.scrollToDownloads()}
+                  eventKey="2"
                 >
                   <b className="lightMode">Downloads</b>
                 </Nav.Link>
                 <Nav.Link
                   style={{ marginRight: "2rem" }}
                   onClick={() => this.props.scrollToFrontends()}
+                  eventKey="3"
                 >
                   <b className="lightMode">Merchant Frontends</b>
                 </Nav.Link>
-                <Nav.Link onClick={() => this.props.scrollToWhyMoney()}>
+                <Nav.Link
+                  onClick={() => this.props.scrollToWhyMoney()}
+                  eventKey="4"
+                >
                   <b className="lightMode">Why Money?</b>
                 </Nav.Link>
               </Nav>
