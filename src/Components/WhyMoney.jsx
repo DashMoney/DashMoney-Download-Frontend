@@ -304,11 +304,10 @@ class WhyMoney extends React.Component {
           ></div>
           <div className="bodytext">
             <p style={{ marginBottom: "0rem" }}>
-              There are no stable coins(FIAT) or 3rd party intermediaries for
-              conversion.{" "}
+              No stable coins(FIAT) or 3rd party intermediaries for conversion.{" "}
             </p>
             <p>
-              Dash will be the medium of exchange and no relying on middleman to
+              Dash is the medium of exchange and no relying on middleman to
               conduct transactions.
             </p>
 
@@ -316,6 +315,12 @@ class WhyMoney extends React.Component {
               This will work because economics is powered by the simple and
               unyielding fact that in a voluntary exchange,{" "}
               <b>Both Parties Benefit.</b>{" "}
+            </p>
+            <p>
+              <b>
+                Money is Medium of Exchange and No one gets to expand upon
+                Money’s Scarcity.
+              </b>
             </p>
 
             <p>There are no advances or improvements on money.</p>
@@ -347,7 +352,8 @@ class WhyMoney extends React.Component {
             <p>
               If Money is the goal of Dash Evolution, how do we get people use
               it? How do we get people to earn it? The chicken and the egg is
-              solved By starting at the beginning of the evolution process.{" "}
+              solved <b>By starting at the beginning</b> of the evolution
+              process.{" "}
             </p>
 
             <p>
