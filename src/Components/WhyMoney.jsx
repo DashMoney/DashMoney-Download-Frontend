@@ -304,12 +304,10 @@ class WhyMoney extends React.Component {
           ></div>
           <div className="bodytext">
             <p style={{ marginBottom: "0rem" }}>
-              No stable coins(FIAT) or 3rd party intermediaries for conversion.{" "}
+              No stable coins(FIAT) or 3rd party intermediaries for conversion
+              and no relying on middleman to conduct transactions.{" "}
             </p>
-            <p>
-              Dash is the medium of exchange and no relying on middleman to
-              conduct transactions.
-            </p>
+            <p>Dash is the medium of exchange.</p>
 
             <p>
               This will work because economics is powered by the simple and

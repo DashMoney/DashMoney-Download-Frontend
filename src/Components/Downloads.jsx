@@ -26,7 +26,7 @@ class Downloads extends React.Component {
           }}
         >
           <h3 style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
-            <b>Downloads (Under Construction)</b>
+            <b>Downloads (Testnet Only)</b>
             {/* (testnet only) */}
           </h3>
         </div>
@@ -72,18 +72,60 @@ class Downloads extends React.Component {
                   </Card.Subtitle>
 
                   <Card.Text>
+                    <b>Delayed - Time to Resolve Undetermined</b>
+                  </Card.Text>
+                  <Card.Text>
+                    Determining best way to resolve signing requirement.
+                  </Card.Text>
+                  <div className="d-flex justify-content-evenly">
+                    <Card.Text //href="#"
+                    >
+                      Download
+                    </Card.Text>
+                    <Card.Text //href="#"
+                    >
+                      Github Link
+                    </Card.Text>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col style={{ marginTop: ".5rem" }}>
+              <Card style={{ width: "18rem" }}>
+                <Card.Body>
+                  <div style={{ textAlign: "center" }}>
+                    <FaLinux size="6em" />
+                  </div>
+                  <Card.Title style={{ textAlign: "center" }}>Linux</Card.Title>
+                  <Card.Subtitle
+                    className="mb-2 text-muted"
+                    style={{ textAlign: "right", marginRight: "1rem" }}
+                  >
+                    AppImage
+                  </Card.Subtitle>
+                  <Card.Text>
                     This is the Name-Wallet for download. Currently, only
                     available for testnet usage.
                   </Card.Text>
+                  <Card.Text>
+                    Set <b>AppImage</b> to executable in order to run
+                    application.
+                  </Card.Text>
                   <div className="d-flex justify-content-evenly">
-                    <Card.Link //href="#"
-                    >
-                      Download
+                    <Card.Link href="https://github.com/DashMoney/Name-Wallet-Desktop/releases/download/v0.1.0/Name-Wallet-1.0.0.AppImage">
+                      <b>Download</b>
                     </Card.Link>
-                    <Card.Link //href="#"
+                    {/* <Card.Link //href="#"
                     >
                       Github Link
-                    </Card.Link>
+                    </Card.Link> */}
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/DashMoney/Name-Wallet-Desktop/releases/tag/v0.1.0"
+                    >
+                      <b>Github Link</b>
+                    </a>
                   </div>
                 </Card.Body>
               </Card>
@@ -107,45 +149,26 @@ class Downloads extends React.Component {
                     This is the Name-Wallet for download. Currently, only
                     available for testnet usage.
                   </Card.Text>
-                  <div className="d-flex justify-content-evenly">
-                    <Card.Link //href="#"
-                    >
-                      Download
-                    </Card.Link>
-                    <Card.Link //href="#"
-                    >
-                      Github Link
-                    </Card.Link>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col style={{ marginTop: ".5rem" }}>
-              <Card style={{ width: "18rem" }}>
-                <Card.Body>
-                  <div style={{ textAlign: "center" }}>
-                    <FaLinux size="6em" />
-                  </div>
-                  <Card.Title style={{ textAlign: "center" }}>Linux</Card.Title>
-                  <Card.Subtitle
-                    className="mb-2 text-muted"
-                    style={{ textAlign: "right", marginRight: "1rem" }}
-                  >
-                    deb
-                  </Card.Subtitle>
                   <Card.Text>
-                    This is the Name-Wallet for download. Currently, only
-                    available for testnet usage.
+                    <b>
+                      Signing was not performed on this Windows distributable.
+                    </b>
                   </Card.Text>
                   <div className="d-flex justify-content-evenly">
-                    <Card.Link //href="#"
-                    >
-                      Download
+                    <Card.Link href="https://github.com/DashMoney/Name-Wallet-Desktop/releases/download/v0.1.0/Name-Wallet-1.0.0-setup.exe">
+                      <b>Download</b>
                     </Card.Link>
-                    <Card.Link //href="#"
+                    <a
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href="https://github.com/DashMoney/Name-Wallet-Desktop/releases/tag/v0.1.0"
+                    >
+                      <b>Github Link</b>
+                    </a>
+                    {/* <Card.Link //href="#"
                     >
                       Github Link
-                    </Card.Link>
+                    </Card.Link> */}
                   </div>
                 </Card.Body>
               </Card>
