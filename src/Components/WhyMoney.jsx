@@ -303,7 +303,7 @@ class WhyMoney extends React.Component {
             style={{ paddingTop: ".2rem", marginBottom: "1rem" }}
           ></div>
           <div className="bodytext">
-            <p style={{ marginBottom: "0rem" }}>
+            <p>
               No stable coins(FIAT) or 3rd party intermediaries for conversion
               and no relying on middleman to conduct transactions.{" "}
             </p>
